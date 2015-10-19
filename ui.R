@@ -14,6 +14,7 @@ shinyUI(pageWithSidebar(
                 h2("Summary"),
                 helpText('This application is built by creating a linear prediction model using mtcars dataset.'),
                 helpText('You can check the effect of Weight, transmission type and acceleration (1/4 mile time) on expected MPG in real-time by adjusting the parameters in the left panel. Expected MPG is shown on the top of the Plot above.'),
-                helpText('Plot above shows the relationship between MPG and other parameters based on the historic data, that is used to build the application')
+                helpText('Plot above shows the relationship between MPG and other parameters based on the historic data, that is used to build the application.'),
+                helpText('Application code can be found at https://github.com/pallav-gupta/devdataprod .')
         )
 ))

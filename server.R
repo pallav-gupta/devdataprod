@@ -22,12 +22,7 @@ shinyServer(
                                 ylab("Miles/(US) gallon") 
                         g <- g + stat_smooth(method= "lm")
                         g        
-                        #geom_point(aes(x = test$wt,y=round(result,2),size= 35,color = "green"))
-                        #hist(galton$child, xlab='child height', col='lightblue',main='Histogram')
-                        #mu <- input$mu
-                        #mse <- mean((galton$child - mu)^2)
-                        #text(63, 150, paste("mu = ", input$Weight))
-                        #text(63, 140, paste("MSE = ", round(mse, 2)))
+                       
                 })
                 
         }
